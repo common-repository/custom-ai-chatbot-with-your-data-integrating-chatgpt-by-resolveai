@@ -1,0 +1,45 @@
+p { margin-top: 35px; font-size: 14px; line-height: 26px; }
+ol li { font-size: 14px; line-height: 26px; }
+code { display:inline-block; margin-bottom: 15px; }
+
+h3 { margin-bottom: 8px; }
+
+.new-url select,
+.new-url input {
+    box-sizing: border-box;
+    padding: 2px 5px;
+    height: 30px;
+    margin: 0px;
+    margin-right: 5px;
+    float: left;
+}
+
+.new-url select {
+    width: 100px;
+}
+
+.new-url input {
+    width: 100%;
+    max-width: 390px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+a .dashicons {
+    text-decoration: none;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
